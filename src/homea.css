@@ -42,7 +42,7 @@
         width: 90%;
     }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
     body .atelt {
         width: 90%;
     }
@@ -59,7 +59,28 @@
     body .awhyus {
         display: block;
     }
+    body .avismis {
+        display: block;
+    }
+    body .anos,
+    body .anos1,
+    body .anos2 {
+        margin: auto;
+        width: 90%;
+        padding: var(--rem1);
+    }
+    body .anos img {
+        float: left;
+        margin: var(--rem1);
+    }
+    body .anos2 img {
+        transform: none;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
 }
+
 
 .a {
     direction: rtl;
